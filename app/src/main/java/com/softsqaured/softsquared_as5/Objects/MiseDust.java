@@ -1,4 +1,6 @@
-package com.softsqaured.softsquared_as5;
+package com.softsqaured.softsquared_as5.Objects;
+
+import com.google.gson.annotations.SerializedName;
 
 public class MiseDust {
     private String dataTime;

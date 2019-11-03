@@ -3,6 +3,7 @@
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">maps.daum-img.net</domain>
         <domain includeSubdomains="true">openapi.airkorea.or.kr</domain>
+        <domain includeSubdomains="true">newsky2.kma.go.kr</domain>
     </domain-config>
 
 </network-security-config>

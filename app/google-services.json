@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "125843622290",
+    "firebase_url": "https://softsquared-784c1.firebaseio.com",
+    "project_id": "softsquared-784c1",
+    "storage_bucket": "softsquared-784c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125843622290:android:926f0fd9a577ee9af0594b",
+        "android_client_info": {
+          "package_name": "com.softsqaured.softsquared_as5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125843622290-hh1fqi85mtfvcb9q9s1qbnof1b5rmpc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softsqaured.softsquared_as5",
+            "certificate_hash": "953dbd8ffa938f06b4ef6214a1f838dcb280e739"
+          }
+        },
+        {
+          "client_id": "125843622290-msqbg7khjugi4rlienggoc1obcqob50l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr5wLLCtrfWdP-26lw_yUKc1fPi7DsBhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125843622290-msqbg7khjugi4rlienggoc1obcqob50l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

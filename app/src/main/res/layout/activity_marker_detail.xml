@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MarkerDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_markerdetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_location_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="서울특별시 중구"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_markerdetail" />
+
+    <ImageView
+        android:id="@+id/iv_sky_detail"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
+        android:background="#AAAAAA"
+        app:layout_constraintStart_toStartOf="@+id/text_cur_date_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_cur_date_detail"
+        app:srcCompat="@drawable/ic_snowy" />
+
+    <ImageView
+        android:id="@+id/iv_emoticon_chomise_detail"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
+        android:background="#AAAAAA"
+        app:layout_constraintStart_toStartOf="@+id/iv_sky_detail"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sky_detail"
+        app:srcCompat="@drawable/ic_emoticon_excellent" />
+
+    <ImageView
+        android:id="@+id/iv_emoticon_mise_detail"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
+        android:background="#AAAAAA"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/iv_emoticon_chomise_detail"
+        app:layout_constraintTop_toBottomOf="@+id/iv_emoticon_chomise_detail"
+        app:srcCompat="@drawable/ic_emoticon_soso" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="미세먼지"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_emoticon_chomise_detail"
+        app:layout_constraintTop_toTopOf="@+id/iv_emoticon_chomise_detail" />
+
+    <TextView
+        android:id="@+id/text_mise_status_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="좋음"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_mise_detail"
+        app:layout_constraintStart_toEndOf="@+id/text_mise_detail" />
+
+    <TextView
+        android:id="@+id/text_mise_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28.0 mg"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_emoticon_chomise_detail"
+        app:layout_constraintStart_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="초미세먼지"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_emoticon_mise_detail"
+        app:layout_constraintTop_toTopOf="@+id/iv_emoticon_mise_detail" />
+
+    <TextView
+        android:id="@+id/text_chomise_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30.0 mg"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_emoticon_mise_detail"
+        app:layout_constraintStart_toStartOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/text_chomise_status_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="보통"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_chomise_detail"
+        app:layout_constraintStart_toEndOf="@+id/text_chomise_detail" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="측정일시"
+        app:layout_constraintBottom_toTopOf="@+id/text_measure_time_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_measure_time_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="2019-10-27 13:00"
+        app:layout_constraintBottom_toTopOf="@+id/btn_subscribe_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_cur_temp_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="6.0 ℃"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="온도"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_sky_detail"
+        app:layout_constraintTop_toTopOf="@+id/iv_sky_detail" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="강수확률"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_sky_detail"
+        app:layout_constraintStart_toStartOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/text_cur_pop_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="20%"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/text_cur_date_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="10월 27일 일요일 오전 3:40"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/text_location_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_location_detail" />
+
+    <ToggleButton
+        android:id="@+id/btn_subscribe_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="8dp"
+        android:textOff="구독하기"
+        android:textOn="구독취소"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">Softsquared_as5</string>
-    <string name="mise_app_key">pCTB+Qiwu9cJdLyvhVw8eQYOhpH0KaXgRI+HGMEJRlcxlXvpwV/FSQ2pt6IXAabA3GOGioFKfsdCWI5kUgQZmA==</string>
-    <string name="kakao_app_key">6e6f7fc86cb964f2b1a7028fa6228cf8</string>
+    <string name="mise_app_key">RxwztCvLPqnld8SHRKROpg3svRpgxsOqhn5F73OGtf1BJ90pAlqEqRqe0uYdBSqZDTh5gMDByXkGIe19QhGiQQ==</string>
+    <string name="weather_app_key">RxwztCvLPqnld8SHRKROpg3svRpgxsOqhn5F73OGtf1BJ90pAlqEqRqe0uYdBSqZDTh5gMDByXkGIe19QhGiQQ==</string>
+    <string name="kakao_app_key">6b83049f229fce4dc993244da32ee145</string>
+    <string name="kakao_scheme">kakao6e6f7fc86cb964f2b1a7028fa6228cf8</string>
+    <string name="kakaolink_host">kakaolink</string>
+    <string name="naver_client_id">UNmUKxnrB2isgc5O1JlW</string>
+    <string name="naver_client_secret">gw6l8Dn_DQ</string>
+    <string name="facebook_app_id">1447519842066514</string>
+    <string name="fb_login_protocol_scheme">fb1447519842066514</string>
+
 </resources>
